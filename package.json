@@ -1,0 +1,16 @@
+{
+  "name": "muniroth-vathanak-wedding-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "photos:webp": "node scripts/prepare-images.mjs",
+    "qa:smoke": "node scripts/smoke-test.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.1.9"
+  }
+}
